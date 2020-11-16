@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#80bebebe"
+    tools:context=".Main2Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            app:srcCompat="@drawable/insaan"/>
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="Bottle No" />
+        <EditText
+            android:id="@+id/edtCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="City" />
+        <EditText
+            android:id="@+id/edtState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="State" />
+        <EditText
+            android:id="@+id/edtMonsoon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="Monsoon" />
+        <EditText
+            android:id="@+id/edtSampleType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="Sample Type" />
+        <EditText
+            android:id="@+id/edtLatLon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="(Lat , Lon)" />
+        <EditText
+            android:id="@+id/edtPh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="pH" />
+        <EditText
+            android:id="@+id/edtEc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="Electrical Conductivity" />
+        <EditText
+            android:id="@+id/edtTds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="Total Dissloved State" />
+        <EditText
+            android:id="@+id/edtArsenic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="Arsenic" />
+        <EditText
+            android:id="@+id/edtNitrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="Nitrate" />
+        <EditText
+            android:id="@+id/edtFluoride"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="Fluoride" />
+        <EditText
+            android:id="@+id/edtSulphate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="Sulphate" />
+        <EditText
+            android:id="@+id/edtChloride"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="Chloride" />
+        <EditText
+            android:id="@+id/edtHardness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="Hardness" />
+        <EditText
+            android:id="@+id/edtAlkalinity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="Alkalinity" />
+        <Button
+            android:id="@+id/btnChoose"
+            android:text="Choose image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="7dp"/>
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="Add"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/btnList"
+            android:text="Food List"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="7dp"/>
+    </LinearLayout>
+</ScrollView>

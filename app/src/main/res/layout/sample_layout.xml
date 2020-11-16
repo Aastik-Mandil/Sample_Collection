@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/newState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State"/>
+    <TextView
+        android:id="@+id/newCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"/>
+    <TextView
+        android:id="@+id/newMonsoon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mosoon"/>
+    <TextView
+        android:id="@+id/newSampleType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sample Type"/>
+    <TextView
+        android:id="@+id/newDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Desc"/>
+    <TextView
+        android:id="@+id/newLatLon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="(Lat,Lon)"/>
+
+</LinearLayout>
